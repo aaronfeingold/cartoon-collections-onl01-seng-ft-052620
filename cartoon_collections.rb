@@ -9,8 +9,8 @@ def summon_captain_planet (array) # code an argument here
   index = 0 
   while index < array.length 
     array.each { |thing| new_array << thing.capitalize }
-   end
   index += 1 
+  end 
   new_array
 end
 

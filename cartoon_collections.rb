@@ -26,7 +26,7 @@ def find_the_cheese (array)# code an argument here
   array.select { |thing| 
     if thing == "cheddar" 
       return thing
-    elsif 
+    else  
       return nil 
     end
   }

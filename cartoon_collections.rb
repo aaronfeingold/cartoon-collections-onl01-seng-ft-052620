@@ -27,7 +27,7 @@ def find_the_cheese (array)# code an argument here
     if thing == "cheddar" 
       return thing
     else  
-      return nil 
+      return false  
     end
   }
   

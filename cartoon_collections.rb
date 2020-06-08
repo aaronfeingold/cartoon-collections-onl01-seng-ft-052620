@@ -14,7 +14,10 @@ def long_planeteer_calls# code an argument here
   array.each {|thing| 
     if thing.length >= 4
       return true 
-    elsif thing.length <
+    elsif thing.length < 4
+      return false 
+    end 
+  }
 end
 
 def find_the_cheese# code an argument here
